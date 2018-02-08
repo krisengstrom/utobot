@@ -1,0 +1,16 @@
+{
+  "name": "utobot",
+  "version": "1.0.0",
+  "description": "Discord bot for Utopia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node utobot.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.3.0",
+    "mathjs": "^3.20.1"
+  }
+}

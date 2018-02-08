@@ -1,0 +1,585 @@
+{
+	"token": "NDAzMzI5ODAxOTQ5MTUxMjMy.DUFtxQ.01ZEgtzqYS-TUHN5LbFQn2Q29t0",
+	"prefix": "!",
+	"units": {
+		"avian": {
+			"elite": {
+				"offense": 9,
+				"defense": 2
+			},
+			"offspec": 6,
+			"defspec": 6 
+		},
+		"bocan": {
+			"elite": {
+				"offense": 4,
+				"defense": 7
+			},
+			"offspec": 6,
+			"defspec": 6 
+		},
+		"darkelf": {
+			"elite": {
+				"offense": 5,
+				"defense": 7
+			},
+			"offspec": 8,
+			"defspec": 6 
+		},
+		"dryad": {
+			"elite": {
+				"offense": 12,
+				"defense": 2
+			},
+			"offspec": 6,
+			"defspec": 6 
+		},
+		"dwarf": {
+			"elite": {
+				"offense": 8,
+				"defense": 5
+			},
+			"offspec": 6,
+			"defspec": 6 
+		},
+		"elf": {
+			"elite": {
+				"offense": 7,
+				"defense": 6
+			},
+			"offspec": 6,
+			"defspec": 7 
+		},
+		"faery": {
+			"elite": {
+				"offense": 4,
+				"defense": 9
+			},
+			"offspec": 6,
+			"defspec": 6 
+		},
+		"human": {
+			"elite": {
+				"offense": 9,
+				"defense": 4
+			},
+			"offspec": 6,
+			"defspec": 6 
+		},
+		"orc": {
+			"elite": {
+				"offense": 10,
+				"defense": 1
+			},
+			"offspec": 6,
+			"defspec": 6 
+		}
+	},
+	"spells": [
+		{
+			"name": "Minor Protection",
+			"description": "Casting a sphere of protection over your province, this spell helps protect your province from invasion from others. This spell lasts for a few weeks.",
+			"known":"Age 1 ... now",
+			"available_to":"All",
+			"effect":"Increases defensive military efficiency by 5%.",
+			"duration":"max 24 hours"
+		},
+		{
+			"name": "Greater Protection",
+			"description": "A more powerful version of the Minor Protection spell, this spell functions similarly but lasts potentially a great deal longer.",
+			"known": "Age 1 ... now",
+			"available_to": "Avians, Humans, Faeries, Undeads",
+			"effect": "Increases defensive military efficiency by 5%.",
+			"duration": "max 36 hours"
+		},
+		{
+			"name": "Magic Shield",
+			"description": "While the natural aura of your Wizards will help protect from enemy spells, a little additional protection can never hurt. Casting this spell offers you a shield of magical protection for your province for about half a month.",
+			"known": "Age 1 ... now",
+			"available_to": "All",
+			"effect": "Increases your defensive magic efficiency by 20%.",
+			"duration": "max 24 hours"
+		},
+		{
+			"name": "Mystic Aura",
+			"description": "A defense spell, creating a Mystic Aura around your lands will repel the next evil spell cast upon you from abroad. Unfortunately, the effect focuses only on the first spell cast upon you.",
+			"known": "Age 1 ... Age 58, Age 60",
+			"available_to": "Dwarves, Faeries",
+			"effect": "Repels the next offensive spell cast upon you (except own spells).",
+			"duration": "N/A"
+		},
+		{
+			"name": "Fertile Lands",
+			"description": "By magically fertilizing your lands, you can ensure excellent food production for the duration of the spell. Whether a lack of farms, a deadly drought, or just wanting to stockpile extra food, this spell offers a definite increase to your food sources.",
+			"known": "Age 1 ... now",
+			"available_to": "All",
+			"effect": "Increases food production by 25%.",
+			"duration": "max 30 hours."
+		},
+		{
+			"name": "Nature's Blessing",
+			"description": "Nature's Blessing will protect your lands from any droughts and storms the world may see fit to place on you. This spell also has a chance of curing the Plague if your lands are affected by it.",
+			"known": "Age 1 ... now",
+			"available_to": "All",
+			"effect": "Protects your land against Storms and Drought. Has a 33% chance of curing Plague (per cast).",
+			"duration": "max 36 hours"  
+		},
+		{
+			"name": "Love & Peace",
+			"description": "Love & Peace creates an aura of calm and happiness across your peasantry for several days. This leads to increased natural birth rates which will quickly replenish your population. This is especially useful when your peasantry has suffered greatly.",
+			"known": "Age 7 ... now",
+			"available_to": "All",
+			"effect": "Increases base birth rate from 2.05% to 2.85%.",
+			"duration": "max 22 hours"
+		},
+		{
+			"name": "Tree of Gold",
+			"description": "If you're ever in need of extra cash, casting a Tree of Gold may be a potential solution. While it won't give you a great deal of gold, every little bit can help.",
+			"known": "Age 1 ... now",
+			"available_to": "Faeries",
+			"effect": "Magically creates a small amount of gold (from 26.66 to 53.33% of your daily income).",
+			"duration": "Instant cast"
+		},
+		{
+			"name": "Quick Feet",
+			"description": "By giving your men magical speed, they can go to battle and return more quickly than usual, leaving your land without defense for a shorter period. This spell affects only your next battle.",
+			"known": "Age 1 ... now",
+			"available_to": "Dryads",
+			"effect": "Decreases your attack times by 10% for your next attack.",
+			"duration": "Removed after 1 attack."
+		},
+		{
+			"name": "Builders' Boon",
+			"description": "The Builders' Boon spell makes your workers build faster and harder than otherwise. All buildings constructed while the spell is active will be completed more quickly than normal. The spell must be cast before the new construction is ordered in the growth panel for lesser construction time.",
+			"known": "Age 15 ... now",
+			"available_to": "All",
+			"effect": "Decreases your construction times by 10% for building set to build while active.",
+			"duration": "max 24 hours"
+		},
+		{
+			"name": "Inspire Army",
+			"description": "Inspire Army helps make your military train harder on their own, thus reducing the daily wages you pay your military for several days. This is especially useful in times of limited cash. This spell also increases the intensity of training, allowing your troops to be ready more quickly; provided the spell is cast before the troops are ordered to be trained.",
+			"known": "Age 7 ... retired in Age 71, brought back in Age 74",
+			"available_to": "Bocans, Dwarves, Elves, Humans",
+			"effect": "Decreases your military wages by 15%. Decreases your military training time by 20%. Does not stack with Paladin's Inspiration.",
+			"duration": "max 24 hours"
+		},
+		{
+			"name": "Anonymity",
+			"description": "War is at the heart of the world of Utopia, but the fear of retaliation makes many leaders cringe. This spell casts an aura of mystery around your army. After a successful cast, your forces will remain anonymous during your next attack -- while your kingdom will be revealed, your enemy will not know your province's name.",
+			"known": "Age 13 ... now",
+			"available_to": "All",
+			"effect": "Hides your province name during your next attack at the cost of no honor gains, causing the attacked province to be unable to ambush that attack. Decreases your attack gains by 15% for your next attack.",
+			"duration": "removed after attack"
+		},
+		{
+			"name": "Invisibility",
+			"description": "Thieves rely on stealth to master their craft, but a little bit of invisibility never hurts. Through the duration of this spell, your thieves have a 10% bonus to any offensive thievery operations.",
+			"known": "Age 1 ... now",
+			"available_to": "Bocans, Faeries",
+			"effect": "Increases your offensive thievery efficiency by 10%.",
+			"duration": "max 22 hours"
+		},
+		{
+			"name": "Clear Sight",
+			"description": "By granting your police the ability to see through the obvious and into the depths, you give them the ability to catch thieves who may wander into the lands. The spell, lasting potentially for weeks, gives you a base chance to catch opposing thieves, regardless of the strength of the guilds involved.",
+			"known": "Age 1 ... now",
+			"available_to": "Tacticians",
+			"effect": "Automatically catches 25% of the thieves' operations conducted against your province.",
+			"duration": "max 22 days"
+		},
+		{
+			"name": "Fanaticism",
+			"description": "Fanaticism focuses your army on combat and war, increasing their offensive efficiency for several days. Unfortunately, a side effect of this desire for blood is that your armies remaining at home -- bored and frustrated for not being at war -- will fight less effectively on defense.",
+			"known": "Age 14 ... now",
+			"available_to": "Avians, Warriors",
+			"effect": "Increases your offensive military efficiency by 5%. Decreases your defensive military efficiency by 3%.",
+			"duration": "max 12 hours"
+		},
+		{
+			"name": "Mage's Fury",
+			"description": "This spell sparks a destructive fervour in your Mages Guild. They increase their efforts to cause damage to their opponents, whilst sacrificing a portion of their own defense temporarily.",
+			"known": "Age 49 ... now",
+			"available_to": "Elves",
+			"effect": "This spell increases the province's WPA by 20% for offensive purposes while decreasing it by 20% for defensive purposes. No effect on self-spells.",
+			"duration": "max 12 hours"
+		},
+		{
+			"name": "Revelation",
+			"description": "Science is a fundamental building block for any and all of the other parts of your province. While the Revelation spell is active, it increases the rate of a new scientist emerging.",
+			"known": "Age 69 ... now",
+			"available_to": "Heretics, Mystics, Rogues",
+			"effect": "Increases the rate of a new scientist emerging on by 30% while the spell is active.",
+			"duration": "max 24 hours"
+		},
+		{
+			"name": "Town Watch",
+			"description": "Town Watch will create a peasant watch upon your town for several days. While the Town Watch is active, all of your peasants will help defend your province in combat. Unfortunately, this also means your peasants will be killed during war - and since they are not well-armed, they will suffer heavy losses.",
+			"known": "Age 7 ... now",
+			"available_to": "Bocans, Tacticians",
+			"effect": "Every 4 of your peasants will defend your land with 1 point of defense.",
+			"duration": "max 18 hours"
+		},
+		{
+			"name": "Aggression",
+			"description": "This spell refocuses your soldiers from versatile fighting units into an offensive machine. Giving them a lust for attacking, Soldiers will gain 1 offensive point in all combat for the duration of the spell. During this period, though, they will lose 1 defensive point as well.",
+			"known": "Age 14 ... now",
+			"available_to": "Dryads",
+			"effect": "Turns all your soldiers into 2/0 troops before modifiers.",
+			"duration": "max 24 days."
+		},
+		{
+			"name": "Animate Dead",
+			"description": "The power to raise the dead gives you the power to protect your people. By casting this spell, you can protect your people from the death and destruction of defending your lands. During your next defensive battle, half of your dead army will be restored into basic soldiers to help repopulate your army.",
+			"known": "Age 1 ... now",
+			"available_to": "Faeries, Undeads",
+			"effect": "Raises 50% of your dead troops into basic soldiers during your next defensive battle.",
+			"duration": "Expires when attacked."
+		},
+		{
+			"name": "War Spoils",
+			"description": "Ordinarily, any land captured in attacks require time to take control of and become available for your own use. War Spoils gives you the opportunity to get this land from combat immediately. The spell lasts just a few Utopian Days, but is more than enough to use on a couple of attacks. This allows you to begin the process of expanding much more quickly than otherwise.",
+			"known": "Age 12 ... Age 58, Age 60 ... now",
+			"available_to": "Faeries, War Heroes",
+			"effect": "Makes the land gained from Traditional March immediately available.",
+			"duration": "max 6 hours"
+		},
+		{
+			"name": "Bloodlust",
+			"description": "Bloodlust fires the blood of your troops, igniting in them a desire to cause destruction. This fury will increase the carnage among enemy troops at a cost of increased recklessness among your own troops.",
+			"known": "Age 1 ... Age 22, Age 49 .. Age 58, Age 59 ... now",
+			"available_to": "Orcs",
+			"effect": "A province under Bloodlust will have 10% increased Offensive Military Efficiency, inflict 10% more kills, and suffer 15% higher losses while the spell is active.",
+			"duration": "Not yet known."
+		},
+		{
+			"name": "Reflect Magic",
+			"description": "Reflect magic places a magical barrier around your lands for several days. During this period, successful spells cast upon your province may randomly be reflected upon the caster, doing unto them as they would have done to you.",
+			"known": "Age 1 ... now",
+			"available_to": "Orcs, Faeries",
+			"effect": "Has a 25% chance of reflecting offensive spells cast upon your province.",
+			"duration": "max 18 hours."
+		},
+		{
+			"name": "Shadowlight",
+			"description": "Shadowlight places a face upon a shadow, revealing the province associated with the next thievery operation against your lands. It does not, however, prevent them from being successful.",
+			"known": "Age 1 ... now",
+			"available_to": "All",
+			"effect": "Reveals the name of the next province performing a successful thievery operation upon your province.",
+			"duration": "Expires on enemy thievery attempt"
+		},
+		{
+			"name": "Patriotism",
+			"description": "Giving your population life and an innate desire to defend your lands, this spell increases the rate that you can draft peasants for several weeks, and offers partial protection against the Propaganda thievery operation. Excellent in emergencies and other strategic situations, this spell is difficult to cast and will more quickly weaken your economy.",
+			"known": "Age 11 ... now",
+			"available_to": "All",
+			"effect": "Increases military draft speed by 30%. Lowers Propaganda Damage received by unknown%.",
+			"duration": "max 20 hours"
+		},
+		{
+			"name": "Paradise",
+			"description": "Arguably one of the most powerful -- and difficult -- spells known, Paradise simply creates several acres of new land for your people to populate. Similar in concept to exploring, this spell gives you instant access to new lands to build upon and grow your province.",
+			"known": "Age 12 ... now",
+			"available_to": "Mystics, Rogues.",
+			"effect": "Creates a small amount of land per cast, this land comes directly from your explore pool. Note: Paradise is not available during War or while in Fortified stance. This spells utilizes acres from the explore pool. If the explore pool is empty it will return 0 acres.",
+			"duration": "instant cast"
+		},
+		{
+			"name": "Cast Ritual",
+			"description": "Once your Monarch or Steward has declared what ritual to perform, this spell will increase your progress towards its completion with each cast. This spell has a very high difficulty and cost, and is accessible via the Ritual tab.",
+			"known": "Age 73",
+			"available_to": "All",
+			"effect": "Progresses the ritual counter with each successful cast.",
+			"duration": "Instant cast"
+		},
+		{
+			"name": "Paladin's Inspiration",
+			"description": "The spell helps make your military train harder on their own, thus reducing the daily wages you pay your military for several days. This is especially useful in times of limited cash. This spell also increases the intensity of training, allowing your troops to be ready more quickly; provided the spell is cast before the troops are ordered to be trained.",
+			"known": "Age 72 ... now",
+			"available_to": "Paladins",
+			"effect": "Decreases your military wages by and training time by 30%. Does not stack with Inspire Army.",
+			"duration": "max 24 hours"
+		},
+		{
+			"name": "Scientific Insights",
+			"description": "This spell clears the minds of your scientists, allowing them to think more clearly and increasing the effectiveness of their research. This spell can also be cast on the provinces of kingdom mates.",
+			"known": "Age 72 ... now",
+			"available_to": "Paladins",
+			"effect": "Increase the science effectiveness of target province by 10%.",
+			"duration": "Short, max time unknown"
+		},
+		{
+			"name": "Illuminate Shadows",
+			"description": "The paladin shines his holy light across the land, eliminating the cover of darkness and revealing those who would hide within its shadow. Thieves who would enter these lands are discouraged from performing their duties and will thus have a lessened impact. This spell can also be cast on the provinces of kingdom mates.",
+			"known": "Age 72 ... now",
+			"available_to": "Paladins",
+			"effect": "Reduces damage from thievery operations by 20%.",
+			"duration": "Moderate, max time unknown"
+		},
+		{
+			"name": "Wrathful Smite",
+			"description": "The paladin lends his divine prowess to the battlefield, calling on his gods to smite an foes who dare to inflict harm upon his charges. Enemy attackers suffer increased casualties when attacking lands protected by the paladin. This spell can also be cast on the provinces of kingdom mates.",
+			"known": "Age 72 ... now",
+			"available_to": "Paladins",
+			"effect": "Increases enemy casualties from attacking provinces.",
+			"duration": "Moderate, max time unknown"
+		},
+		{
+			"name": "Divine Shield",
+			"description": "The paladin protects his people from the black magics of his enemies, granting them further protection against harmful spells.",
+			"known": "Age 72 ... now",
+			"available_to": "Paladins",
+			"effect": "Increases defensive magic efficiency by 20%.",
+			"duration": "Moderate, max time unknown"
+		},
+		{
+			"name": "Storms",
+			"description": "The power of mother nature is amongst the most powerful in existence. Sending storms over another province will cause destruction and death across the lands for days. The Storm Spell will cancel any Droughts affecting the target province.",
+			"known": "Age 1 ... now",
+			"available_to": "All",
+			"effect": "Kills 1.5% of total population per day.",
+			"duration": ""
+		},
+		{
+			"name": "Droughts",
+			"description": "The opposite of storms, droughts can do significant damage as well. Without the rains necessary for fertile land, food production will be lower than usual, possibly resulting in starvation throughout the lands. In addition, the harsh conditions slow interest in the military and interferes with the soldier draft. Horses across the province may die as well due to lack of water and food. roughts negate any Storms currently ravaging the target's land.",
+			"known": "Age 1 ... now",
+			"available_to": "All",
+			"effect": "Decreases food production by 25%, military draft rate by 15% and horses production by 50%. Some horses may also die as a result.",
+			"duration": ""
+		},
+		{
+			"name": "Gluttony",
+			"description": "One of the seven deadly sins, your population will consume more food.",
+			"known": "Age 68 ... now",
+			"available_to": "The Rogue",
+			"effect": "Increases food required by 25%.",
+			"duration": ""
+		},
+		{
+			"name": "Expose Thieves",
+			"description": "Thieves rely on stealth and surprise to be effective at their jobs. Casting this spell will expose an enemy's guild, leaving them less effective until they can recover.",
+			"known": "Age 1 ... now",
+			"available_to": "All",
+			"effect": "Decreases available stealth of target province to between 66% and 93% of its original amount.",
+			"duration": "Instant cast"
+		},
+		{
+			"name": "Greed",
+			"description": "People are, by their very nature, greedy individuals. Soldiers have been trained to sacrifice themselves for the greater good. However, this spell reverts the natural greed back into soldiers for several days, causing your opponent to have to pay more in wages and to draft new troops.",
+			"known": "Age 12 ... now",
+			"available_to": "All",
+			"effect": "Increases military wages and draft costs by 25%.",
+			"duration": ""
+		},
+		{
+			"name": "Fool's Gold",
+			"description": "The art of turning lead into gold has always been a confusing mystery. Is it possible? No one knows. However, turning gold into lead can be done! This spell will convert a portion of your opponent's gold into worthless lead.",
+			"known": "Age 12 ... now",
+			"available_to": "Faeries, Paladins with a minimum relationship of Unfriendly",
+			"effect": "Destroys some gold.",
+			"duration": "Instant Cast"
+		},
+		{
+			"name": "Pitfalls",
+			"description": "Placing magical pitfalls throughout an enemy's lands will cause them to suffer higher losses in any and all combat for several days. This is an effective way to frustrate attackers and strengthen your own position in the midst of war.",
+			"known": "Age 14 ... now",
+			"available_to": "The War Heroes",
+			"effect": "Increases defensive military losses by 25%.",
+			"duration": ""
+		},
+		{
+			"name": "Fireball",
+			"description": "If you want to directly go after an enemy, launching a fireball at their peasantry is an effective weapon. The fireball, if successful, will splash directly into the heart of your opponent's lands, exploding on impact, and killing instantly.",
+			"known": "Age 1 ... now",
+			"available_to": "All with minimum relationship of Unfriendly ",
+			"effect": "Kills a small and random portion of peasants (4-7%).",
+			"duration": "Instant Cast"
+		},
+		{
+			"name": "Chastity",
+			"description": "Introducing Chastity amongst the peasants of your opponents is an effective way to grind their population growth to a halt.",
+			"known": "Age 47 ... now",
+			"available_to": "Elves, Mystics with a minimum relationship of Unfriendly",
+			"effect": "Suspends births, preventing population from growing naturally.",
+			"duration": ""
+		},
+		{
+			"name": "Lightning Strike",
+			"description": "The power of a direct Lightning Strike is arguably the most deadly force on the planet. Your Lightning Strikes will go directly at opponents rune stores and destroy everything in sight. This strike is the most effective way to cripple any opponent's ability to cast spells.",
+			"known": "Age 1 ... now",
+			"available_to": "All with a minimum relationship of Unfriendly",
+			"effect": "Destroys a random portion of runes between 30-65%.",
+			"duration": "Instant cast. "
+		},
+		{
+			"name": "Explosions",
+			"description": "Provinces work together by assisting each other in times of need. By casting Explosions, you can interrupt the flow of goods between provinces, creating explosions that destroy portions of shipments to and from a province at random.",
+			"known": "Age 10 ... now",
+			"available_to": "All",
+			"effect": "50% chance to reduce aid shipment to 55%-80% of original size.",
+			"duration": ""
+		},
+		{
+			"name": "Amnesia",
+			"description": "Knowledge is vital to the longterm survival of a province. The unique powers of magic allow you to strip a province of some of its long-sought science. While most of its effects are temporarily, a small portion of science is lost forever. By casting Amnesia, you can cause an enemy province to lose a portion of their arts & sciences knowledge, opening a window to attack or further amage the enemy.",
+
+			"known": "Age 1 ... now",
+			"available_to": "Sages with a minimum relationship of Unfriendly",
+			"effect": "Make your opponent’s scientists lose a number of game days worth of experience. For some this will delay them reaching the next level, while it will effectively demote some others to the previous level.",
+			"duration": "Instant Spell with duration effect: Research queue length dependent."
+		},
+		{
+			"name": "Nightmares",
+			"description": "The effects fear can have on an individual are amazing. By causing nightmares within the soldiers of an opposing army, you may be able to cause them to quiver in fear. Troops having nightmares have to be rehabilitated and are unavailable for a period of time.",
+			"known": "Age 1 ... now",
+			"available_to": "Dark Elves with a minimum relationship of Unfriendly",
+			"effect": "Returns around 1.5% of the military troops (specialists, elites and thieves) under training for 8 days. Soldiers simply quit the army.",
+			"duration": "Instant Spell with duration effect: Troops in training queue stretching 8 days."
+		},
+		{
+			"name": "Mystic Vortex",
+			"description": "The Mystic Vortex is one of the more powerful spells in the Utopian World. A successful cast will cause approximately half of the spells currently active over a province to vanish. However, this spell does not discriminate and will nullify both positive and negative spells affecting their lands.",
+			"known": "Age 1 ... now",
+			"available_to": "All with a minimum relationship of Unfriendly",
+			"effect": "Nullifies spells on the enemy province (50% chance per spell).",
+			"duration": "Instant cast"
+		},
+		{
+			"name": "Meteor Showers",
+			"description": "This spell will rain Meteors across the lands of an opponent for several days, killing peasants, troops and more. Deadly and enduring, casting this spell is both difficult and costly. The damage done, however, can be just as great.",
+			"known": "Age 12 ... now",
+			"available_to": "Mystics with minimum relationship of Unfriendly",
+			"effect": "Kills peasants and troops (soldiers, specialists and elites) at home each Utopian Day the spell is active.",
+			"duration": ""
+		},
+		{
+			"name": "Tornadoes",
+			"description": "One of the most dangerous and destructive offensive spells, casting this will rain a terror of tornadoes across an opponent's lands, laying waste to acres of buildings across the province.",
+			"known": "Age 14 ... now",
+			"available_to": "All with minimum relationship of Unfriendly.",
+			"effect": "Destroys a small and random portion of buildings.",
+			"duration": "Instant cast"
+		},
+		{
+			"name": "Land Lust",
+			"description": "Land is the defining strength of any province, and this spell is the Mage's way of simply stealing an opponent's land. This spell is a difficult alternative to attacking.",
+			"known": "Age 15 ... now",
+			"available_to": "All with minimum relationship of Unfriendly.",
+			"effect": "Captures a small and random (up to 1.35%) of the enemy land.",
+			"duration": "Instant cast"
+		},
+		{
+			"name": "Blizzard",
+			"description": "Reduces the building effectiveness of a province, does not stack, has a medium cost and difficulty, with a short duration.",
+			"known": "Age 69 ... now",
+			"available_to": "Heretics",
+			"effect": "Reduces the building effectiveness of a province by 10%.",
+			"duration": "Instant cast"
+		},
+		{
+			"name": "Abolish Ritual",
+			"description": "Reduces the strength of an enemy kingdom's province and has a high cost/difficulty",
+			"known": "Age 73 ... now",
+			"available_to": "All",
+			"effect": "Reduces ritual strength by 2%. Limited to 10 casts on a single enemy province.",
+			"duration": "Instant cast"
+		},
+		{
+			"name": "Magic Ward",
+			"description": "The paladin projects a magical ward into the skies above an enemy province, forcing the enemy to pour more resources into their spell casts.",
+			"known": "Age 72 ... now",
+			"available_to": "Paladins with minimum relationship of Unfriendly.",
+			"effect": "Increases target's rune costs by 25%.",
+			"duration": "Unknown"
+		},
+		{
+			"name": "Barrier of Integrity",
+			"description": "The paladin places a magical barrier around an enemy province that enchants their peasantry, calling upon their deep-rooted morals to family and preventing them from signing up for military service.",
+			"known": "Age 72 ... now",
+			"available_to": "Paladins with minimum relationship of Unfriendly.",
+			"effect": "Stops all drafting within a target province.",
+			"duration": "Very short"
+		},
+		{
+			"name": "Fountain of Knowledge - RETIRED",
+			"description": "Science is a fundamental building block for any and all of the other parts of your province. While a Fountain of Knowledge spell is active, your students work harder and will learn more than they would otherwise. Fountain of Knowledge offers partial protection against the permanent damage caused by Amnesia (need confirmation). Was changed to Revelation",
+			"known": "Age 39 ... Age 68",
+			"available_to": "None",
+			"effect": "Increases your science research by 10% while the spell is active.",
+			"duration": "max 24 hours"
+		},
+		{
+			"name": "Vermin - RETIRED",
+			"description": "Sending vermin scurrying into the food supplies of an opponent forces the destruction of a great deal of their reserves. For several weeks, vermin will eat away food at a pace far exceeding standard decay rates.",
+			"known": "Age 1 ... Age 67",
+			"available_to": "None",
+			"effect": "Food decays at a rate of 6%, up from a base of 1%",
+			"duration": ""
+		},
+		{
+			"name": "Fog - RETIRED",
+			"description": "Casting a sphere of protection over your province, this spell helps protect your province from invasion from others. This spell can last for a couple of days.",
+			"known": "Age 1 ... Age 50",
+			"available_to": "None",
+			"effect": "Increases enemy attack times by 3 hours.",
+			"duration": "max 22 hours"
+		},
+		{
+			"name": "Crystal Ball - RETIRED",
+			"description": "Knowing more about your friends and opponents is vital to your success as a leader. This spell gives you insight into the workings of any province of your choice.",
+			"known": "Age 1 ... Age 47",
+			"available_to": "None",
+			"effect": "Displays the targeted provinces Throne Paper",
+			"duration": "instant spell"
+		},
+		{
+			"name": "Crystal Eye - RETIRED",
+			"description": "Cast on a kingdom instead of an individual province, this option gives a Bird's Eye view of all that has happened across the kingdom of the current and previous months.",
+			"known": "Age 1 ... Age 47",
+			"available_to": "None",
+			"effect": "Displays the targeted provinces Kingdom Paper",
+			"duration": "instant spell"
+		},
+		{
+			"name": "Miner's Mystique - RETIRED",
+			"description": "Mines generally serve as a stable, supplemental source of income. By casting this unique spell, you can substantially increase the money you collect through mining for a period lasting several weeks.",
+			"known": "Age 1 ... Age 21",
+			"available_to": "None",
+			"effect": "N/A",
+			"duration": "N/A"
+		},
+			{
+			"name": "Haste - RETIRED",
+			"description": "Haste makes your workers build faster and harder than otherwise. All buildings constructed while the Haste spell is active will be completed faster than otherwise would be expected.",
+			"known": "Age 3 ... Age 14",
+			"available_to": "None",
+			"effect": "N/A",
+			"duration": "N/A"
+		},
+		{
+			"name": "Illusionary - RETIRED",
+			"description": "By creating illusionary forces throughout your lands, it is possible to make an army of men look larger than life. Any crystal balls cast while this spell is active will show a larger-than-normal army.",
+			"known": "Age 1 ... Age 11",
+			"available_to": "None",
+			"effect": "N/A",
+			"duration": "N/A"
+		},
+		{
+			"name": "Mind Focus - RETIRED",
+			"description": "Science is a fundamental building block for any and all of the other parts of your province. While a Mind Focus spell is active, your students work harder and will learn more than they would otherwise. Was upgraded to Fountain of Knowledge",
+			"known": "Age 1 ... Age 38",
+			"available_to": "None",
+			"effect": "N/A",
+			"duration": "N/A"
+		},
+		{
+			"name": "Ghost Workers - RETIRED",
+			"description": "Creating ghostly workers to perform the duties of your peasants, this spell increases your province's utilization, improving the quality and quantity of production throughout your land. This spell is effective for several days until the ghosts disappear.",
+			"known": "Age 13 ... Age 16",
+			"available_to": "None",
+			"effect": "N/A",
+			"duration": "N/A"
+		}
+	]
+}
